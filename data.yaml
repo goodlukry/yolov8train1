@@ -1,9 +1,9 @@
-train: E:\study film\AA shuiyanjiu  phdstudy\VOCdevkit-2985\path1\train  # train images (relative to 'path') 128 images
-val: E:\study film\AA shuiyanjiu  phdstudy\VOCdevkit-2985\path1\val  # val images (relative to 'path') 128 images
+train: E:\study film\AA shuiyanjiu  phdstudy\VOCdevkit-2985\path1\train # train images (relative to 'path') 128 images
+val: E:\study film\AA shuiyanjiu  phdstudy\VOCdevkit-2985\path1\val # val images (relative to 'path') 128 images
 test: E:\study film\AA shuiyanjiu  phdstudy\VOCdevkit-2985\path1\test
 
 nc: 4
 #Transverse cracks, longitudinal cracks, crazing and potholes
 
 # Classes
-names: ['Transverse cracks','longitudinal cracks','crazing','potholes']
+names: ["Transverse cracks", "longitudinal cracks", "crazing", "potholes"]
