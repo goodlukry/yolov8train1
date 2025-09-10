@@ -1,10 +1,11 @@
-#runs/detect/train4/weights/best.pt
+# runs/detect/train4/weights/best.pt
 # 路径
 from ultralytics import YOLO
+
 # 加载训练好的模型，改为自己的路径
-model = YOLO('runs/detect/train5/weights/best.pt')
+model = YOLO("runs/detect/train5/weights/best.pt")
 # 修改为自己的图像或者文件夹的路径
-source = 'E:\study film\AA shuiyanjiu  phdstudy\沥青测试视频.mp4' #修改为自己的图片路径及文件名
+source = "E:\study film\AA shuiyanjiu  phdstudy\沥青测试视频.mp4"  # 修改为自己的图片路径及文件名
 # 运行推理，并附加参数
 results = model.predict(source, save=True, stream=True)
 # 2. 使用 for 循环来处理视频流中的每一帧
